@@ -1,7 +1,3 @@
----
-marp: true
----
-
 How to convert this
 
 ```rust
