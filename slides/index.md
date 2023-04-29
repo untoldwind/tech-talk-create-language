@@ -2,15 +2,15 @@
 marp: true
 ---
 
-# How to create your own programming language
+<style>
+    .colums12 {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+    }
+</style>
 
-<div class="mermaid">
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-</div>
+# How to create your own programming language
 
 ---
 
@@ -30,6 +30,11 @@ Split it into smaller problems that are "solvable":
 ---
 
 !!!include(syntax-tree.md)!!!
+
+---
+
+!!!include(code-generation.md)!!!
+
 
 <script type="module">
 import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.0/dist/mermaid.esm.min.mjs';
