@@ -1,22 +1,3 @@
-<style>
-    .colums12 {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        align-items: center;
-    }
-</style>
-
-
-# Code generation
-
-<style>
-    .colums2 {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        align-items: center;
-        gap: 10px;
-    }
-</style>
 
 First question to answer where to generate to:
 
@@ -48,7 +29,7 @@ We will use Mono as it is the underlying framework used in the Unity engine.
 
 Essentially the VM is "just" an inflated RPN calculator.
 
-<div class="colums2">
+<div class="colums12">
 
 ```ts
 12 + 34
@@ -63,7 +44,7 @@ add           // adds two values from the stack
 
 </div>
 
-<div class="colums2">
+<div class="colums12">
 
 ```ts
 calc(12, 34, 56)

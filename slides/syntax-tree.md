@@ -97,8 +97,6 @@ Variable lookup is also a leaf in the syntax tree:
 class VariableGet {
   constructor(private readonly identifier: string) {}
 }
-
-
 ```
 
 <div class="colums12">

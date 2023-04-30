@@ -7,8 +7,19 @@ marp: true
         display: grid;
         grid-template-columns: 1fr 2fr;
         align-items: center;
+        gap: 10px;
     }
 </style>
+
+<style>
+    .colums2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 10px;
+    }
+</style>
+
 
 # How to create your own programming language
 
@@ -35,9 +46,12 @@ Split it into smaller problems that are "solvable":
 
 !!!include(code-generation.md)!!!
 
+---
+
+!!!include(async-await.md)!!!
 
 <script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.0/dist/mermaid.esm.min.mjs';
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.1.0/dist/mermaid.esm.min.mjs';
 mermaid.initialize({ startOnLoad: true });
 
 window.addEventListener('vscode.markdown.updateContent', function() { mermaid.init() });
