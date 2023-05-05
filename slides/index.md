@@ -27,7 +27,20 @@ marp: true
 
 # How to tackle a "too big" of a problem?
 
-Split it into smaller problems that are "solvable":
+Split it into smaller problems that are "solvable".
+
+## In programmers terms
+
+How to write a complex function:
+```
+function compile(sourceCode: string) : ExecutableCode
+```
+
+Split it into lots of smaller function.
+
+---
+
+# Overall strategy
 
 - Parsing
   - Convert source code text into an intermediate representation resp. abstract syntax tree
