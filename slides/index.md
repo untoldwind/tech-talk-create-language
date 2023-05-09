@@ -23,6 +23,12 @@ marp: true
 
 # How to create your own programming language
 
+Slides: https://github.com/untoldwind/tech-talk-create-language
+
+---
+
+!!!include(motivation.md)!!!
+
 ---
 
 # How to tackle a "too big" of a problem?
