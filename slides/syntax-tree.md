@@ -192,7 +192,7 @@ const literalInt = map(digits, (digits) => new LiteralInt(parseInt(digits)) )
 
 ```ts
 interface ASTNode {
-  LangunageType resultType(context: TypecheckContext);
+  LanguageType resultType(context: TypecheckContext);
 }
 ```
 

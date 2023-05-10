@@ -162,11 +162,3 @@ Where the trees all code have spun,
 An abstract syntax grew with glee,
 To generate some code, you see!
 ```
-
-
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.0/dist/mermaid.esm.min.mjs';
-mermaid.initialize({ startOnLoad: true });
-
-window.addEventListener('vscode.markdown.updateContent', function() { mermaid.init() });
-</script>

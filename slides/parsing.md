@@ -156,11 +156,11 @@ const term = alt(
 // '*' '/' take a higher precendence than
 const mulDivOp = alt(tag("*"), tag("/"));
 
-const mulDiv = seq(term, whitespaces, mulDivOp, whitespaces, term);
+const mulDiv = seq(term, many0(seq(whitespaces, mulDivOp, whitespaces, term)));
 
 const addSubOp = alt(tag("+"), tag("-"));
 
-const addSub = seq(mulDiv, whitespaces, addSubOp, whitespace, mulDiv);
+const addSub = seq(mulDiv, many0(seq(whitespaces, addSubOp, whitespace, mulDiv)));
 ```
 
 ---

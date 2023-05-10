@@ -70,8 +70,7 @@ Insight 2: As long as all variables are restored it is possible to jump back int
 
 ## Convert the function to a state machine
 
-<pre class="mermaid">
-stateDiagram-v2
+<pre class="mermaid">stateDiagram-v2
     direction LR
     [*] --> Initial
     Initial --> Sleeping  : first call to\nsleep()
